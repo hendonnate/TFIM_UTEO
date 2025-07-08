@@ -1,4 +1,5 @@
 # this script estimates the value of H for a large system of qubits (about n > 17)
+import netket as nk
 import jax
 import jax.numpy as jnp #numpy on roids
 from flax import linen as nn #neural network API
